@@ -10,7 +10,7 @@ WeActStudioAT32F4.build.f_cpu=80000000L
 WeActStudioAT32F4.build.board=AT32F403ACGxx
 WeActStudioAT32F4.build.vect_flags=-DUSER_ADDR_ROM=0x08000000
 WeActStudioAT32F4.build.core=arduino
-WeActStudioAT32F4.build.extra_flags=-DAT32F403ACGU7 -USE_STDPERIPH_DRIVER
+WeActStudioAT32F4.build.extra_flags=-DAT32F403ACGU7 -DUSE_STDPERIPH_DRIVER
 WeActStudioAT32F4.build.variant=AT32F403ACGU7
 WeActStudioAT32F4.build.variant_system_lib=FrameLib.a
 WeActStudioAT32F4.build.ldscript=linker_scripts/AT32F403AxG_FLASH.ld
@@ -101,6 +101,11 @@ AT32F415KBU7.build.extra_flags=-DAT32F415KBU7_4 -DUSE_STDPERIPH_DRIVER -mfloat-a
 AT32F415KBU7.build.variant=AT32F415KBU7_4
 AT32F415KBU7.build.variant_system_lib=
 AT32F415KBU7.build.ldscript=linker_scripts/AT32F415xB_FLASH.ld
+AT32F415KBU7.build.f_pll_clock_source=2
+AT32F415KBU7.build.f_hext_div=CRM_HEXT_DIV_2
+AT32F415KBU7.build.f_hsi_div=CRM_HICK48_DIV6
+AT32F415KBU7.build.f_pll_mult=CRM_PLL_MULT_60
+AT32F415KBU7.build.f_pll_output_range=CRM_PLL_OUTPUT_RANGE_GT72MHZ
 AT32F415KBU7.upload.maximum_size=131072
 AT32F415KBU7.upload.maximum_data_size=32768
 

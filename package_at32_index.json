@@ -59,6 +59,20 @@
               "archiveFileName": "xpack-arm-none-eabi-gcc-11.2.1-1.2-linux-x64.tar.gz",
               "checksum": "SHA-256:7479becc1ea98fbceecadf1f036ddaba8dc39c9cce5cb45f0a7a36e923d33c9a",
               "size": "235243515"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.2/xpack-arm-none-eabi-gcc-11.2.1-1.2-darwin-x64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-11.2.1-1.2-darwin-x64.tar.gz",
+              "checksum": "SHA-256:c162fb084e140cb7c393e8e0c6f4d4afbcd12f4df58d974f2c0e57da41e2f064",
+              "size": "235762688"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.2/xpack-arm-none-eabi-gcc-11.2.1-1.2-darwin-arm64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-11.2.1-1.2-darwin-arm64.tar.gz",
+              "checksum": "SHA-256:42ec7c10d0e2e93bb0aa5b9b64bd1838d1d0b1c59cb9a15bf45ae1b9fd5e9855",
+              "size": "225799766"
             }
 
           ]
