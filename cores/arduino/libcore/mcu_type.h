@@ -23,8 +23,15 @@
 #ifndef __MCU_TYPE_H
 #define __MCU_TYPE_H
 
-#include "at32f403a_407.h"
-#include "at32f403a_407_conf.h"
+/* Include appropriate chip header based on build target */
+#if defined(AT32F415KBU7_4) || defined(AT32F415)
+    #include "at32f415.h"
+    #include "at32f415_conf.h"
+#else
+    #include "at32f403a_407.h"
+    #include "at32f403a_407_conf.h"
+#endif
+
 #include "config/mcu_config.h"
 
 #define __AT32__

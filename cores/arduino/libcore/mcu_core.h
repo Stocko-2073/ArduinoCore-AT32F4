@@ -23,7 +23,12 @@
 #ifndef __MCU_CORE_H
 #define __MCU_CORE_H
 
-#include "at32f403a_407_clock.h"
+/* Include appropriate clock header based on build target */
+#if defined(AT32F415KBU7_4) || defined(AT32F415)
+    #include "at32f415_clock.h"
+#else
+    #include "at32f403a_407_clock.h"
+#endif
 
 #define sei() __set_PRIMASK(0)
 #define cli() __set_PRIMASK(1)
