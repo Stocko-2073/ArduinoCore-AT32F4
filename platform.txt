@@ -33,7 +33,7 @@ build.common_flags=-mthumb
 ##===============================================##
 ## In there,set the include path,for FrameLib use
 
-compiler.FrameLib.c.flags="-I{build.system.path}/Drivers/CMSIS/Include" "-I{build.system.path}/AT32F403A" "-I{build.system.path}/Drivers/Firmware/inc" "-I{build.system.path}/libcore" "-I{build.system.path}/libcore/config"
+compiler.FrameLib.c.flags="-I{build.system.path}/Drivers/CMSIS/Include" "-I{build.system.path}/AT32F403A" "-I{build.system.path}/AT32F415" "-I{build.system.path}/Drivers/Firmware/inc" "-I{build.system.path}/Drivers/AT32F415_Firmware/inc" "-I{build.system.path}/libcore" "-I{build.system.path}/libcore/config" "-I{build.variant.path}"
 
 ##===============================================##
 
